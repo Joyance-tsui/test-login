@@ -1,0 +1,20 @@
+/* 简单的样式 */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#login-page, #protected-page {
+    margin-bottom: 20px;
+}
+
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
