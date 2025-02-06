@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>密钥登录</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-page">
+        <h1>登录</h1>
+        <input type="password" id="api-key" placeholder="请输入密钥">
+        <button id="login-button">登录</button>
+        <div id="login-error" style="color: red; display: none;"></div>
+    </div>
+
+    <div id="protected-page" style="display: none;">
+        <h1>欢迎！</h1>
+        <p>这是登录后的内容。</p>
+        <button id="logout-button">退出</button>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
