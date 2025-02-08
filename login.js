@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const apiKey = apiKeyInput.value;
 
         try {
-            const response = await fetch('test-login.wfds.workers.dev', { // 假设 Cloudflare Worker 监听 /api/login
+            const response = await fetch('/api/login', { // 假设 Cloudflare Worker 监听 /api/login
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
